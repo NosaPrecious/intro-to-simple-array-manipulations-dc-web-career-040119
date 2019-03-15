@@ -43,6 +43,6 @@ def using_delete(array, str)
 end
 
 def using_delete_at(array, int_val)
-  array.delete(int_val)
+  array.delete(array[int_val])
 end
   
