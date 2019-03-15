@@ -37,3 +37,7 @@ end
 def using_flatten(sup_array)
   sup_array.flatten
 end
+
+def using_delete(array, str)
+  array.delete(str)
+end
